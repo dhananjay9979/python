@@ -1,0 +1,5 @@
+f=open("abc2")
+f.seek(10)
+print(f.tell())
+print(f.readlines())
+print(f.tell())
